@@ -1,0 +1,248 @@
+/* General */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #222;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 0;
+  gap: 30px;
+}
+nav ul li a {
+  color: #eee;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 6px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  color: #00aaff;
+}
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: #00aaff;
+  left: 0;
+  bottom: 0;
+  transition: width 0.3s ease;
+}
+nav ul li a.active::after,
+nav ul li a:hover::after {
+  width: 100%;
+}
+h1{
+  text-align: center;
+}
+p{
+  padding-left: 50px;
+}
+main a{
+  padding-left: 500px;
+}
+/* Header and page sections */
+.page-header {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+.page-header img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+/* Gallery */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #004466;
+  padding: 10px;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  text-decoration: none;
+}
+
+.gallery {
+  padding: 20px;
+  text-align: center;
+}
+
+.images-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.images-grid img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.table-section {
+  margin-top: 40px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: white;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+thead {
+  background-color: #cce5ff;
+}
+
+tfoot {
+  background-color: #f1f1f1;
+  font-style: italic;
+}
+
+
+
+
+
+
+/* Booking form */
+.booking {
+  max-width: 400px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.booking h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.booking form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+
+
+.booking form input,
+.booking form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  
+}
+.booking form button {
+  margin-top: 25px;
+  width: 100%;
+  background-color: #00aaff;
+  color: white;
+  font-size: 18px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.booking form button:hover {
+  background-color: #0077cc;
+}
+
+/* Help and About sections */
+.help, .about {
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.1);
+}
+.about h1{
+  text-align: center;
+}
+.help h1, .about h1 {
+  margin-bottom: 20px;
+}
+.about h2{
+  text-align:center;
+}
+.help ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.help ul li {
+  padding: 8px 0;
+  font-weight: 600;
+
+}
+footer {
+  background-color: #003344;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #004466;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+
